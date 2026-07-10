@@ -44,8 +44,8 @@ void successfulFillFormTest() {
     $(".table-responsive").shouldHave(text("Male"));
     $(".table-responsive").shouldHave(text("1 August,1989"));
     $(".table-responsive").shouldHave(text("Math"));
-    /*$(".table-responsive").shouldHave(text("Rajasthan"));
-    $(".table-responsive").shouldHave(text("Jaipur"));*/
+    $(".table-responsive").shouldHave(text("NCR"));
+    $(".table-responsive").shouldHave(text("Delhi"));
 }
 
     @Test
