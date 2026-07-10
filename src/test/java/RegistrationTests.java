@@ -46,6 +46,7 @@ void successfulFillFormTest() {
     $(".table-responsive").shouldHave(text("Math"));
     $(".table-responsive").shouldHave(text("NCR"));
     $(".table-responsive").shouldHave(text("Delhi"));
+    $(".table-responsive").shouldHave(text("image_3.jpg"));
 }
 
     @Test
