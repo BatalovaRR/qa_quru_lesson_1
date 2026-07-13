@@ -11,7 +11,6 @@ void successfulFillFormTest() {
 
     $("[id=firstName]").setValue("firstName");
     $("[id=firstName]").setValue("DDDooooouuuublefirstNamettteee");
-    $("[id=firstName]").setValue("TTThirdfirstName");
     $("[id=lastName]").setValue("lastName");
     $("[id=userEmail]").setValue("regress19@gmail.com");
     $("[id=userNumber]").setValue("9274347088");
