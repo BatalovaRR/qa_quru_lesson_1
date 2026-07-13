@@ -10,8 +10,8 @@ void successfulFillFormTest() {
     open("/automation-practice-form");
 
     $("[id=firstName]").setValue("firstName");
-    $("[id=firstName]").setValue("DoublefirstName");
-    $("[id=firstName]").setValue("ThirdfirstName");
+    $("[id=firstName]").setValue("DDDoublefirstName");
+    $("[id=firstName]").setValue("TTThirdfirstName");
     $("[id=lastName]").setValue("lastName");
     $("[id=userEmail]").setValue("regress19@gmail.com");
     $("[id=userNumber]").setValue("9274347088");
